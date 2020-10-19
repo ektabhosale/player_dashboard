@@ -1,15 +1,11 @@
 import React from 'react';
-import axios from 'axios';
 import './App.css';
-// import FetchData from './FetchData';
-import DataFetch from './DataFetch'
-
+import FetchData from './components/FetchData'
 
 function App() {
   return (
     <>
-    {/* <FetchData/> */}
-    <DataFetch/>
+    <FetchData/>
     </>
   );
 }
